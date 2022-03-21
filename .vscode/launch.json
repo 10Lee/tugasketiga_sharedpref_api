@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "tugasminggu4",
+            "request": "launch",
+            "type": "dart"
+        },
+
+        {
+            "name": "Android",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "iPhone13",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "26385CB4-F4C8-4CC7-81BA-53A18791EAB5"
+        },
+       
+    ],
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": ["Android","iPhone13"]
+        }
+    ]
+}
